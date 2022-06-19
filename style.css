@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    display: none;
+}
+.folder-uploader{
+    background-color: rgb(46, 46, 246);
+    color: white;
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+table{
+    border: 2px solid lightblue;
+    border-radius: 2px;
+    width: -webkit-fill-available;
+}
+table th{
+    text-align: start;
+}
+tr:nth-child(even){
+    background: lightblue;
+}

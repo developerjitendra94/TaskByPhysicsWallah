@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>JS Task</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <h1>Folder upload</h1>
+    <label for="folder">Select folder</label>
+    <div>
+        <label for="folder-uploader-input" class="folder-uploader">Choose folder</label>
+        <input id="folder-uploader-input" onchange="handleInputChange(event)" type="file" webkitdirectory multiple />
+        <span id="file-numbers">No File Chosen</span>
+    </div>
+    <h3>Selected Files</h3>
+    <span id="reminder">Please Choose a folder</span>
+</body>
+</html>
